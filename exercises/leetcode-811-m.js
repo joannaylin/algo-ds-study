@@ -28,7 +28,7 @@ var subdomainVisits = function(cpdomains) {
       if (map.has(domains)) {
         total += map.get(domains)
       }
-
+      
       map.set(domains, total)
 
       if (domains.indexOf(".") === -1) {
@@ -43,7 +43,6 @@ var subdomainVisits = function(cpdomains) {
   map.forEach((num, domain) => {
     return results.push(`${num} ${domain}`)
   })
-  
   return results
 };
 
