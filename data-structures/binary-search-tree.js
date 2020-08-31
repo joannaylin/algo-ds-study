@@ -6,7 +6,7 @@ Tree
 - binary trees can have at most 2 child nodes
 - full binary tree: every node has 0 or 2 children
 - complete binary tree: all levels are completely filled except maybe for last level and last level has all nodes to the left as possible
-- perfect binary tree: all internal nodes have 2 children, and all leaf nodes at same level
+- perfect binary tree: all internal nodes have 2 children, and all leaf nodes at same level (full and complete)
 - balanced binary tree: height of tree is O(logN) where N is number of nodes
 - binary search trees are sorted, such that left is less than parent, and right is greater than parent
     - easier to look things up because sorted
