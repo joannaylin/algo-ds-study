@@ -50,10 +50,8 @@ var findDiagonalOrder = function(matrix) {
       }
     }
   }
-  
   // result -> remember diagonals is an array of arrays, which each array indicating a diagonal traverse
   return diagonals.flat()
-
 };
 
 // (0,0) -> sum is 0
