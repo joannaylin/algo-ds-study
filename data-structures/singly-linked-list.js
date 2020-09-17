@@ -11,7 +11,7 @@ Big O (Time)
 - access: O(N)
 - search: O(N)
 - insertion: O(1)
-- deletion: O(1)
+- deletion: O(N)
 
 Big O (Space)
 - O(N)
