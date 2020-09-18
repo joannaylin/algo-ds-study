@@ -1,5 +1,14 @@
 // Depth First Search & Breadth First Search
 
+
+/*
+TLDR; BFS/DFS COMPARISON
+                          BFS        DFS
+helpful data structure:  queue      stack   
+helpful algorithms:   level order   in order/preorder/postorder
+good for:            shortest path  get all paths
+*/
+
 /*
 Depth First Search
 - uses a stack (includes callstack (using recursion))
