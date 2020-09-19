@@ -50,6 +50,7 @@
 *multiply position of i of left array with position of i of right array to get the product of array except self!!
 *i.e. input[2] = 3, output[2] should be 8. can find this by multiplying left[2] = 2 with right[2] = 4 = 8
 
+* can further optimize this by not creating a second, right array. just multiply the left array directly!! (reuse)
 */
 
 var productExceptSelf = function (nums) {
