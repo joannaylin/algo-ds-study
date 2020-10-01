@@ -76,3 +76,33 @@ function fib(n) {
 }
 
 */
+
+/**
+ * Famous Knapsack problem
+ * What items should you steal so that you steal the maximum money's worth of goods?
+ * 
+ * Simplest solution: try every possible set of goods and find the set that gives you the most value
+ * - impractical for any reasonable number of goods
+ * 
+ * Using DP:
+ * - start by solving the problem for smaller knapsacks and then work up to solving the original problem
+ * - think of building a grid with weight as the columns, and items as the rows
+ * - mark which combinations work and the highest value for each possible weight
+ * 
+ * Can you steal fractions of an item? 
+ * No! DP only offers taking the item or not, no way to figure out halfsies or parts (you can with the greedy algorithm though)
+ * 
+ * What if items depend on each other?
+ * No! DP is powerful because it can solve subproblems and use those answers to solve the bigger problem
+ * It only works when each subproblem is discrete - when it doesn't depend on other subproblems
+ * 
+ * DP is useful when..
+ * - trying to optimize something given a constraint
+ * - the problem can be broken into discrete subproblems and don't depend on each other.
+ * 
+ * General Tips: 
+ * - every dp solution involves a grid
+ * - values in cells are usually what you're trying to optimize
+ * - every cell is a subproblem
+ *  - think about how you can divide your problem into subproblems
+ */
