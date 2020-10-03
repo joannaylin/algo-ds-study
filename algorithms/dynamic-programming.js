@@ -86,6 +86,7 @@ function fib(n) {
  * 
  * Using DP:
  * - start by solving the problem for smaller knapsacks and then work up to solving the original problem
+ * - remaining capacity is a lower capacity, so we'll always have already computed its max value and stored it in our array
  * - think of building a grid with weight as the columns, and items as the rows
  * - mark which combinations work and the highest value for each possible weight
  * 
